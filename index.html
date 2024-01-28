@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YourBook.com</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body id="sun">
+    <div class="h">
+        <ul>
+            <li><a href="#">Find a store </a>&nbsp;&nbsp;&nbsp;&nbsp;<span>|</span></li>
+            <li><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;Track your order</a></li>
+            <li><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;<span>|</span>&nbsp;&nbsp;&nbsp;&nbsp;+91 9123591234</a></li>
+        </ul>
+    </div>
+   <header>
+    <img src="logo.png" alt="logo" style="height: 60px; width: 170px; margin-left: 20px;">
+    <ul>
+        <li><a href="#">ARTICLES</a></li>
+        <li><a href="#">BOOKS</a></li>
+        <li><a href="#">COURSES</a></li>
+        <li><a href="#">PODCAST</a></li>
+        <li><a href="#">NEWSLETTER</a></li>
+        <li style="margin-left: 130px;"><a href="#">LOG IN</a></li>
+        <li><a href="#"><span>SIGN UP</span></a></li>
+    </ul>
+   <img src="moon-fill.svg" style="height: 25px; width: 25px; margin-left: 100px;" alt="bright" id="icon">
+   </header>
+   <div class="book">
+    <div style="margin-left: 320px;">
+    <h1 style="font-size: 80px; margin-left: 210px; margin-bottom: 20px;">Books</h1>
+    <p style="font-size: 18px; text-align: center;">With over 20 million books sold in 65 languages, and number-one bestsellers<br> in over a dozen countries, I can confidently say that my mom is very proud.</p>
+   </div>
+   </div><br><br><br><br><br>
+   <div class="twobook">
+    <div class="books">
+        <img src="book1.png" alt="book" style="height: 370px; width: 370px;" class="bookbor">
+        <div class="block">
+        <h4>THE SUBTLE ART OF NOT GIVING A F*CK</h4>
+        <p>The mega bestseller. The self-help book for people who hate self-help books. The Subtle Art of Not Giving a F*ck is all about self-improvement not through avoiding problems or always being happy, but rather through improving upon problems and learning to accept the occasional unhappiness. It’s a radical departure from anything else you’ve ever read, and that’s what makes it so powerful.</p>
+        <button class="btn">LEARN MORE</button>
+        </div>
+    </div>
+    <div class="bar"></div>
+    <div class="books" style="margin-left: 130px;">
+        <img src="book2.png" alt="book" style="height: 370px; width: 370px;" class="bookbor">
+        <div class="block">
+        <h4>EVERYTHING IS F*CKED: A BOOK ABOUT HOPE</h4>
+        <p>In Everything Is F*cked, I turn my gaze from the inevitable flaws within each individual self to the endless calamities taking place in the world around us. Drawing on mountains of psychological research, as well as the timeless wisdom of philosophers such as Plato and Nietzsche, I dissect religion and politics and the uncomfortable ways they have come to resemble one another.</p>
+        <button class="btn">LEARN MORE</button>
+        </div>
+    </div>
+   </div>
+   <div class="twobook">
+    <div class="books">
+        <img src="book3.png" alt="book" style="height: 370px; width: 370px;" class="bookbor">
+        <div class="block">
+        <h4>WILL</h4>
+        <p>Will Smith, one of the most globally recognized entertainment forces of our time opens up fully in a brave and inspiring book, co-authored by me, that traces his learning curve to a place where outer success, inner happiness, and human connection align. This memoir is the product of a profound journey of self-knowledge, a reckoning with all that your will can get you and all that it can leave behind. The story of how one exceptional man mastered his own emotions, written in a way that can help everyone else do the same.</p>
+        <button class="btn">LEARN MORE</button>
+        </div>
+    </div>
+    <div class="bar"></div>
+    <div class="books" style="margin-left: 130px;">
+        <img src="book4.png" alt="book" style="height: 370px; width: 370px;" class="bookbor">
+        <div class="block">
+        <h4>LOVE IS NOT ENOUGH – AUDIOBOOK</h4>
+        <p>Follow the stories of five people brave enough to sit down with me and air out their relationship problems. We wade into some heavy and, at times, harrowing topics like trauma, abuse, sexuality, and loss. But through all the stories of pain and heartache, we also uncover some universal truths about healthy relationships and how to find them. As you listen to these five stories, you’ll learn how to love. And you’ll learn that love is not enough.</p>
+        <button class="btn" style="margin-top: 30px;">LEARN MORE</button>
+        </div>
+    </div>
+   </div><br><br>
+   <div class="foot">
+    <div class="f1">
+        <h4>YOURBOOK.COM</h4>
+        <p>YourBook is the three-time #1 New York Times bestselling author of The Subtle Art of Not Giving a F*ck, as well as other titles. His books have sold around 20 million copies, been translated into more than 65 languages, and reached number one in more than a dozen countries. In 2023, a feature film about his life and ideas was released worldwide by Universal Pictures.</p>
+    </div>
+    <div class="bar" style="height: 450px; margin-left: 200px;"></div>
+    <div class="f2">
+        <a href="#">ARTICLES</a>
+        <a href="#">BOOKS</a>
+        <a href="#">COURSES</a>
+        <a href="#">CONTACT</a>
+    </div>
+    <div class="f2" style="margin-left: 20px;">
+        <a href="#">SIGN UP</a>
+        <a href="#">ABOUT</a>
+    </div>
+  
+   </div>
+
+
+
+
+   <script>
+
+    var icon = document.getElementById("icon");
+
+    icon.onclick = function(){
+        document.body.classList.toggle("dark-theme");
+        if(document.body.classList.contains("dark-theme")){
+            icon.src = "sub.png";
+        }else{
+            icon.src = "moon-fill.svg";
+        }
+    }
+
+
+   </script>
+   
+</body>    
+</html>
